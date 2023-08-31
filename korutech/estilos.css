@@ -1,0 +1,222 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding abaixo do footer e texto do corpo mais claro */
+
+.custom-card-body {
+  /* Define a cor de fundo da caixa de conteúdo da carta como cinza claro */
+  background-color: #f2f2f2;
+}
+
+
+body {
+  /* Define o padding superior e inferior do corpo da página como 3rem */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* Define a cor do texto do corpo da página como cinza escuro */
+  color: #5a5a5a;
+}
+
+.custom-card-header {
+  /* Define a cor de fundo da barra de cabeçalho da carta como roxo */
+  background-color: #ea399f;
+  /* Define a cor do texto da barra de cabeçalho da carta como verde limão */
+  color: #ceea24;
+  /* Define a fonte da barra de cabeçalho da carta como negrito */
+  font-weight: bold;
+}
+
+.custom-card-title {
+  /* Define a fonte da barra de título da carta como uma fonte moderna */
+  font-family: Modern Serif;
+  /* Define o tamanho da fonte da barra de título da carta como 2,75rem */
+  font-size: 2.75rem;
+  /* Define o espaçamento inferior da barra de título da carta como 0 */
+  margin-bottom: 0;
+  /* Aplica um efeito de sombra ao texto da barra de título da carta */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.30);
+
+}
+
+/* Define a cor do texto no botão como verde limão */
+.btn-custom-color {
+  background-color: #ceea24;
+  color: #000000;
+}
+
+/* Define a largura da imagem do logotipo da barra de navegação como 90% */
+.navbar-logo {
+  /* Define a largura da imagem do logotipo da barra de navegação como 90% */
+  width: 90%;
+  /* Define uma largura máxima para a imagem do logotipo da barra de navegação para garantir que não fique muito grande */
+  max-width: 190px;
+}
+.navbar-nav > li {
+  /* Define um padding de 15px à esquerda e à direita de cada item da barra de navegação. */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar a {
+  /* Define a família da fonte dos links da barra de navegação como Arial, Helvetica, sans-serif. */
+  font-family: Arial, Helvetica, sans-serif !important;
+  /* Define o tamanho da fonte dos links da barra de navegação como 1.1rem. */
+  font-size: 1.1rem !important;
+  /* Define a cor dos links da barra de navegação como verde limão. */
+  color: #ceea24 !important;
+  /* Remove o peso da fonte dos links da barra de navegação. */
+  /* font-weight: bold !important; */
+}
+
+.navbar-brand {
+  /* Define o tamanho da fonte do logotipo da barra de navegação como 5.0rem. */
+  font-size: 5.0rem !important;
+  /* Define a cor do logotipo da barra de navegação como verde limão. */
+  color: #ceea24 !important;
+  /* Define a família da fonte do logotipo da barra de navegação como Arial, Helvetica, sans-serif. */
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.nav-link {
+  /* Define a cor dos links da barra de navegação como verde limão. */
+  color: #ceea24 !important;
+}
+
+/* Define a cor da fonte dos ícones sociais como azul claro */
+.social-icons .social-icon i {
+  /* Define a cor da fonte dos ícones sociais como azul claro */
+  color: #b20ffb;
+  /* Define o tamanho da fonte dos ícones sociais como 150% */
+  font-size: 150%;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  /* Define o espaçamento inferior da classe carousel como 4rem */
+  margin-bottom: 4rem;
+}
+
+/* Define a altura do item do carrossel como 32rem */
+.carousel-item {
+  height: 32rem;
+}
+
+/* Define a posição absoluta da imagem no carrossel */
+.carousel-item > img {
+  /* Define a posição absoluta da imagem no carrossel */
+  position: absolute;
+  /* Define a posição superior da imagem no carrossel como 0 */
+  top: 0;
+  /* Define a posição esquerda da imagem no carrossel como 0 */
+  left: 0;
+  /* Define a largura mínima da imagem no carrossel como 100% */
+  min-width: 100%;
+  /* Define a altura da imagem no carrossel como 32rem */
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Centraliza o texto nas três colunas abaixo do carrossel */
+/* Esta regra CSS centraliza o texto nas três colunas abaixo do carrossel */
+.marketing .col-lg-4 {
+  /* Define o espaçamento inferior das três colunas abaixo do carrossel como 1,5rem */
+  margin-bottom: 1.5rem;
+  /* Centraliza o texto nas três colunas abaixo do carrossel */
+  text-align: center;
+}
+
+/* Define a cor da fonte dos cabeçalhos de marketing como preto */
+/* Esta regra CSS define a cor da fonte dos cabeçalhos de marketing como preto */
+.marketing h2 {
+  /* Define a cor da fonte dos cabeçalhos de marketing como preto */
+  font-weight: 400;
+}
+
+/* Centraliza o texto nas colunas de marketing */
+/* Esta regra CSS centraliza o texto nas colunas de marketing */
+.marketing .col-lg-4 p {
+  /* Define o espaçamento à direita e à esquerda do texto nas colunas de marketing como 0,75rem */
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+/* Define uma margem de 5rem entre o <hr> do Bootstrap e o conteúdo */
+/* Esta regra CSS define uma margem de 5rem entre o <hr> do Bootstrap e o conteúdo */
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+/* Define a fonte dos cabeçalhos de marketing como fina */
+/* Esta regra CSS define a fonte dos cabeçalhos de marketing como fina */
+.featurette-heading {
+  /* Define a fonte dos cabeçalhos de marketing como fina */
+  font-weight: 300;
+  /* Define a altura da linha dos cabeçalhos de marketing como 1 */
+  line-height: 1;
+  /* Define o espaçamento entre as letras dos cabeçalhos de marketing como -0,05rem */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* Aumenta o tamanho do conteúdo do carrossel em dispositivos maiores */
+/* Esta regra CSS aumenta o tamanho do conteúdo do carrossel em dispositivos maiores */
+@media (min-width: 40em) {
+  /* Aumenta o tamanho do texto da legenda do carrossel como 1,25rem */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  /* Aumenta o tamanho da fonte dos cabeçalhos de marketing para 50px */
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+/* Define uma margem superior de 7rem para os cabeçalhos de marketing em dispositivos maiores */
+/* Esta regra CSS define uma margem superior de 7rem para os cabeçalhos de marketing em dispositivos maiores */
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+html, body {
+  /* Define a altura do elemento `html` e do elemento `body` como 100%. Isso faz com que a página preencha toda a tela do dispositivo. */
+  height: 100%;
+  /* Define as margens do elemento `html` e do elemento `body` como 0. Isso remove as margens do elemento `html` e do elemento `body`. */
+  margin: 0;
+  /* Define os paddings do elemento `html` e do elemento `body` como 0. Isso remove os paddings do elemento `html` e do elemento `body`. */
+  padding: 0;
+}
+
+.content {
+  /* Define o flex-grow do elemento `.content` como 1. Isso faz com que o elemento `.content` ocupe todo o espaço disponível na página. */
+  flex: 1;
+}
+
+.footer {
+  /* Define a cor de fundo do elemento `.footer` como roxo. */
+  background-color: #ea399f;
+  /* Define a cor do texto do elemento `.footer` como verde limão. */
+  color: #ceea24;
+  /* Define os paddings do elemento `.footer` como 20px 0. Isso adiciona um padding de 20px à esquerda e à direita do elemento `.footer` e um padding de 0px na parte superior e na parte inferior do elemento `.footer`. */
+  padding: 20px 0;
+}
+
+
